@@ -1,4 +1,8 @@
 <?php
+define('LINE_API',"https://notify-api.line.me/api/notify");
+$stickerPkg = 2; //stickerPackageId
+$stickerId = 34; //stickerId
+
 	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
